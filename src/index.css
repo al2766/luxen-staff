@@ -1,0 +1,20 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+/* src/index.css */
+body {
+  @apply bg-gray-100 text-gray-900;
+}
+
+.App {
+  @apply max-w-lg mx-auto p-8;
+}
+
+input[type="text"] {
+  @apply mb-4 p-2 w-full border rounded;
+}
+
+button {
+  @apply bg-blue-500 text-white p-2 rounded hover:bg-blue-600;
+}
